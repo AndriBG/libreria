@@ -3,29 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../../assets/css/nav.css">
+    <link rel="stylesheet" href="./assets/css/nav.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-    <title>Lecturiosis.</title>
+    <title>Lecturiosis</title>
 </head>
 <body>
 <nav>
 <ul class="topnav sticky-navbar">
     <li >
-       <a href="" class="active">
-           Lecturiosis.
+       <a href="#" class="active">
+           Lecturiosis
        </a>
     </li>
     <li >
-        <a href="">Inicio</a>
+        <a href="#">Inicio</a>
     </li>
     <li >
-        <a href="">Libros</a>
+        <a href="#books">Libros</a>
     </li>
     <li >
-        <a href="">Autores</a>
+        <a href="#authors">Autores</a>
     </li>
     <li >
-        <a href="">Categorías</a>
+        <a href="#categories">Categorías</a>
     </li>
     <?php session_start()?>
     <?php if(isset($_SESSION['exist'])): ?>
@@ -46,8 +46,7 @@
     </li>
     <?php else: ?>
     <li class="right">
-        <a href="../vistas/login.php">Inicia sesión</a>
-        
+        <a href="./vistas/login.php">Inicia sesión</a>
     </li>
     <?php endif;?>
     
@@ -56,7 +55,7 @@
 <h1>
     Adictos a los libros.
     <div class="img">
-        <img src="../../assets/imgs/row-of-books.svg" width="700px">
+        <img src="./assets/imgs/row-of-books.svg" width="700px">
     </div>
 </h1>
     <br>
